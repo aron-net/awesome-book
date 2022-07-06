@@ -101,3 +101,8 @@ document.querySelector('#book-list').addEventListener('click', (e) => {
 
   Store.removeBook(e.target.previousElementSibling.textContent);
 });
+
+// Nav link
+
+const date = document.querySelector('.date');
+date.innerHTML = new Date();

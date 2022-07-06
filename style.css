@@ -23,7 +23,25 @@ body {
 
 header {
   display: flex;
-  justify-content: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+}
+
+.header {
+  padding: 5px 10px;
+}
+
+.date-container {
+  margin: 10px;
+  position: relative;
+  left: 370px;
 }
 
 h1 {
@@ -140,4 +158,15 @@ input::placeholder {
   height: 40px;
   border-radius: 5px;
   background-image: linear-gradient(to top, rgba(7, 6, 7, 0.454), transparent);
+}
+
+.contact-info {
+  text-align: center;
+  margin: 20px;
+}
+
+.contact-info ul {
+  text-align: center;
+  margin: auto;
+  width: 40%;
 }
