@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./photo-1535905748047-14b2415c77d5.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  width: 90%;
+  margin: auto;
+  background-color: rgba(233, 220, 220, 0.16);
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  display: flex;
+  gap: 7px;
+  align-items: baseline;
+  font-size: 64px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  line-height: 24px;
+  color: rgb(6, 7, 6);
+  padding: 30px;
+}
+
+.material-symbols-outlined {
+  color: rgb(86, 127, 231);
+  font-size: 43px;
+}
+
+.book {
+  font-style: oblique;
+}
+
+section {
+  width: 100%;
+}
+
+#book-list {
+  border: 4px solid rgb(51, 47, 47);
+  margin: auto;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-book {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  padding: 15px;
+  padding-left: 20px;
+  font-size: 20px;
+  background-color: rgba(5, 6, 6, 0.6);
+  color: #fff;
+}
+
+.list-book:nth-child(even) {
+  background-color: rgba(243, 228, 228, 0.16);
+}
+
+.hr-line {
+  margin: auto;
+  padding: 20px;
+  width: 7%;
+}
+
+hr {
+  padding: 1px;
+  border-radius: 6px 2px;
+  background-color: rgb(44, 41, 41);
+}
+
+.add-book {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-size: 35px;
+  text-align: center;
+}
+
+#book-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.input-container {
+  width: 30%;
+}
+
+input[type=text] {
+  padding: 7px;
+  width: 100%;
+  font-size: 18px;
+}
+
+.delete {
+  margin-left: 47%;
+  position: fixed;
+  padding: 3px 10px;
+  border: 2px solid rgb(8, 8, 8);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+  font-weight: 900;
+  height: 30px;
+  border-radius: 5px;
+  background-image: linear-gradient(to top, rgba(7, 6, 7, 0.454), transparent);
+}
+
+input::placeholder {
+  color: rgb(8, 8, 8);
+  font-size: 18px;
+}
+
+#submit {
+  margin-left: 23%;
+  margin-top: 10%;
+  position: fixed;
+  padding: 5px 20px;
+  border: 2px solid rgb(8, 8, 8);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+  font-weight: 900;
+  height: 40px;
+  border-radius: 5px;
+  background-image: linear-gradient(to top, rgba(7, 6, 7, 0.454), transparent);
+}
