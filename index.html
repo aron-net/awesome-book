@@ -21,40 +21,42 @@
     <div class="body">
         <header>
             <h2 class="header">Awesome Books</h2>
-            <ul>
-                <li>List</li>
-                <li>Add new</li>
-                <li>Contact</li>
+            <ul class="nav-link">
+                <li class="nav">List</li>
+                <li class="nav">Add new</li>
+                <li class="nav">Contact</li>
             </ul>
         </header>
         <div class="date-container">
             <p class="date"></p>
         </div>
         <section>
-            <h1>All awesome books</h1>
-            <table id="book-list"></table>
-            <div class="hr-line">
-                <hr>
+            <div class="bookList hide">
+                <h1 class="ar">All awesome books</h1>
+                <div id="book-list"></div>
             </div>
-            <h2 class="add-book">Add a new book</h2>
-            <form id="book-form">
-                <div class="input-container">
-                    <input type="text" id="title" name="title" placeholder="Title" required />
-                </div>
-                <br />
-                <div class="input-container">
-                    <input type="text" id="author" name="author" placeholder="Author" required />
-                </div>
-                <br />
-                <input type="submit" id="submit" value="Add" />
-            </form>
-            <div class="contact-info">
-                <p>Do you have any question or you just want to say "Hello"?</p>
-                <p>You can reach out to us!</p>
-                <ul>
-                    <li>Our email aaronandtiti@gmail.com</li>
-                    <li>Our phone number +234567890000</li>
-                    <li>Our address 50, Adeola Odeku, Victoria Island. Lekki Lagos</li>
+            <div class="bookAdd hide">
+                <h2 class="add-book">Add a new book</h2>
+                <form id="book-form">
+                    <div class="input-container">
+                        <input type="text" id="title" name="title" placeholder="Title" required />
+                    </div>
+                    <br />
+                    <div class="input-container">
+                        <input type="text" id="author" name="author" placeholder="Author" required />
+                    </div>
+                    <br />
+                    <input type="submit" id="submit" value="Add" />
+                </form>
+            </div>
+            <div class="contact-info hide">
+                <h2>Contact information</h2>
+                <p class="contact-p">Do you have any question or you just want to say "Hello"?</p>
+                <p class="contact-p">You can reach out to us!</p>
+                <ul class="contact-ul">
+                    <li class="contact-li">Our email: mail@mail.com</li>
+                    <li class="contact-li">Our phone number: 0043586534422</li>
+                    <li class="contact-li">Our address: Streetname 22 84503 City. Country</li>
                 </ul>
             </div>
         </section>

@@ -106,3 +106,31 @@ document.querySelector('#book-list').addEventListener('click', (e) => {
 
 const date = document.querySelector('.date');
 date.innerHTML = new Date();
+
+const bookList = document.querySelector('.bookList');
+const bookAdd = document.querySelector('.bookAdd');
+const contactInfo = document.querySelector('.contact-info');
+
+const navLink = document.querySelectorAll('.nav');
+navLink.forEach((n, index) => n.addEventListener('click', () => {
+  navLink.forEach((link, number) => {
+    if (index === number) {
+      link.classList.add('bgcolor');
+    } else {
+      link.classList.remove('bgcolor');
+    }
+  });
+  if (index === 0) {
+    bookList.classList.remove('hide');
+    bookAdd.classList.add('hide');
+    contactInfo.classList.add('hide');
+  } else if (index === 1) {
+    bookList.classList.add('hide');
+    bookAdd.classList.remove('hide');
+    contactInfo.classList.add('hide');
+  } else {
+    bookList.classList.add('hide');
+    bookAdd.classList.add('hide');
+    contactInfo.classList.remove('hide');
+  }
+}));
