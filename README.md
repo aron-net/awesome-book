@@ -2,55 +2,44 @@
 
 # Project Name
 
-> Description the project.
-
-
-## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+> This is a web page for Awesome Books which enables the user to add and remove a book from the local storage.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+step 1: Clone this repo locally using git in the command line and the following command
 
+git clone https://github.com/aron-helu/awesome-book.git
 
-To get a local copy up and running follow these simple example steps.
+Alternatively, you can just download the complete zip file and extract the folder in your directory
+
+Step 2: Copy All Project files and run using VSCODE. HTML can be viewed in browser.
 
 ### Prerequisites
 
-### Setup
+- Any html and css code editor like Vscode or Vim.
 
-### Install
+## Built With
 
-### Usage
+- HTML
+- CSS
+- JAVASCRIPT
 
-### Run tests
+## Live Demo (if available)
 
-### Deployment
-
-
+[Live Demo Link](https://aron-helu.github.io/awesome-book/)
 
 ## Authors
 
-👤 **Author1**
+👤 **Apuabi Titilope**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@eternalgratis](https://github.com/Eternalgratis)
+- LinkedIn: [@eternalgratis](www.linkedin.com/in/titilope-apuabi-69a98719b)
 
-👤 **Author2**
+👤 **Aaron Abraham**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Aaron](https://github.com/aron-helu)
+
+- LinkedIn: [@Aaron](https://www.linkedin.com/in/aron-abraham-90a4321b0/)
 
 ## 🤝 Contributing
 
