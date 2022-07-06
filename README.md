@@ -1,56 +1,46 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Awesome Books
 
-> Description the project.
-
-
-## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+> This is a Web app that add and remove book information from local storage like title and author.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+step 1: Clone this repo locally using git in the command line and the following command
 
+git clone https://github.com/aron-helu/awesome-book.git
 
-To get a local copy up and running follow these simple example steps.
+Alternatively, you can just download the complete zip file and extract the folder in your directory
+
+Step 2: Copy All Project files and run using VSCODE. HTML can be viewed in browser.
 
 ### Prerequisites
 
-### Setup
+- Any html and css code editor like Vscode or Vim.
 
-### Install
+## Built With
 
-### Usage
+- HTML (HyperText Markup Language)
+- CSS (Cascading Style Sheets)
+- Javascript
 
-### Run tests
+## Live Demo
 
-### Deployment
-
-
+[Live Demo Link](https://aron-helu.github.io/awesome-book/)
 
 ## Authors
 
-👤 **Author1**
+👤 **Apuabi Titilope**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@eternalgratis](https://github.com/Eternalgratis)
 
-👤 **Author2**
+- LinkedIn: [@eternalgratis](https://st1.zoom.us/web_client/4qu8baa/html/externalLinkPage.html?ref=https://www.linkedin.com/in/titilope-apuabi-69a98719b//)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Aaron Abraham**
+
+- GitHub: [@Aaron](https://github.com/aron-helu)
+
+- LinkedIn: [@Aaron](https://www.linkedin.com/in/aron-abraham-90a4321b0/)
 
 ## 🤝 Contributing
 
@@ -64,9 +54,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Miroverse Inc.
 
 ## 📝 License
 
